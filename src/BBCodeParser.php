@@ -109,7 +109,7 @@ class BBCodeParser
             'content' => '$1'
         ],
         'linebreak' => [
-            'pattern' => '/\r\n/',
+            'pattern' => '/\r?\n/',
             'replace' => '<br />',
             'content' => ''
         ]
